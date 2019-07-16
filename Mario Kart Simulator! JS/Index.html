@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<title>Mario Kart</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+
+<body>
+    <div>
+        <h1><a href="https://fontmeme.com/fonts/super-mario-256-font/"><img class="h1"
+                    src="https://fontmeme.com/permalink/190715/20c3f4f0698be7e77af536b5d77bdd6c.png"
+                    alt="super-mario-256-font" border="0"></a></h1>
+
+        <h3>Item Box Opener</h3>
+        <p>
+            <strong>TOTALS -> </strong>
+            Banana: <span id="banana">0</span> |
+            Green Shell: <span id="shell">0</span> |
+            Star: <span id="star">0</span> |
+            Golden Mushroom: <span id="mushroom">0</span> |
+            Bullet Bill: <span id="bill">0</span> |
+        </p>
+
+
+        <p>
+            Enter a racer position and click the box below :<p> <input id="input"
+                    placeholder="Please input a position 1-12" type="number" max="12"><br></p>
+        </p>
+
+        <p><button id="simulate"><img src="box.png" alt="simulator box">
+                <p>+1</p>
+            </button>
+            <button id="p100"><img src="box.png" alt="simulator box">
+                <p>+100</p>
+            </button>
+        </p>
+        <h3><button id="clear" value="reset">Clear</button></h3>
+
+
+
+        <h2 id="results">
+            <center>
+                Results:
+            </center>
+        </h2>
+    </div>
+
+
+    <!--Load JavaScript-->
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+html {
+    background-image: url(mario.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+div {
+    text-align: center;
+    background-color: rgba(213, 231, 231, 0.5);
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+p,
+#simulate {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+}
+
+#results {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+img {
+    width: 200px;
+}
+
+h3 {
+    font-size: 50px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(4, 156, 216);
+}
+
+#results img {
+    width: 150px;
+    height: 150px;
+    
+}
+
+
+#input{
+    width: 200px;
+}
+
+button {
+    color: #fff !important;
+    text-transform: uppercase;
+    background:rgba(229, 37, 33,0.8);
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+}
+
+button:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.h1{
+    width:900px;
+}
