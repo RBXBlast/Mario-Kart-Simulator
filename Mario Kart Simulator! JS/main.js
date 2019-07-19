@@ -16,6 +16,7 @@ document.getElementById("p100").addEventListener("click", plus100);
 document.getElementById("clear").addEventListener('click', clear);
 document.getElementById("p10").addEventListener("click", plus10);
 document.getElementById("pinp").addEventListener("click", plusPlayer);
+document.getElementById("shroom").addEventListener("click", shroom)
 // Event Function
 function simulate() {
     position = Number(document.getElementById("input").value);
@@ -49,7 +50,7 @@ function simulate() {
             document.getElementById("bill").innerHTML = numBill;
             document.getElementById("results").innerHTML += '<img src ="Bullet_Bill.png">';
         }
-    } else if (position >= 7 && position <= 12){
+    } else if (position >= 7 && position <= 12) {
         // Simulate Result
         let randNum = Math.random(); // Random Decimal from 0-1
         if (randNum < 0.05) {
@@ -86,17 +87,19 @@ function plus100() {
         simulate();
     }
 }
+
 function plus10() {
     for (let n = 0; n < 10; n++) {
         simulate();
     }
 }
 
-function plusPlayer(){
+function plusPlayer() {
     for (let n = 0; n < Number(document.getElementById('inp').value); n++) {
         simulate();
     }
 }
+
 function clear() {
     numBanana = 0;
     numShell = 0;
@@ -110,3 +113,12 @@ function clear() {
     document.getElementById("mushroom").innerHTML = numMushroom;
     document.getElementById("results").innerHTML = null;
 }
+
+function shroom() {
+    while (true) {
+        simulate();
+            if (numMushroom == 1) {
+                break;
+            }
+        }
+    }
