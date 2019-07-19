@@ -40,22 +40,23 @@ h3 {
 #results img {
     width: 150px;
     height: 150px;
-    
+
 }
 
 
-#input{
+#input {
     width: 200px;
 }
 
 button {
     color: #fff !important;
     text-transform: uppercase;
-    background:rgba(229, 37, 33,0.8);
+    background: rgba(229, 37, 33, 0.8);
     padding: 20px;
     border-radius: 50px;
     display: inline-block;
     border: none;
+    
 }
 
 button:hover {
@@ -65,11 +66,11 @@ button:hover {
     transition: all 0.4s ease 0s;
 }
 
-.h1{
-    width:900px;
+.h1 {
+    width: 900px;
 }
 
-input{
+input {
     width: 55px;
     border-radius: 100px;
 }
