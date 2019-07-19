@@ -14,6 +14,8 @@ let position = Number(document.getElementById("input").value);
 document.getElementById("simulate").addEventListener("click", simulate);
 document.getElementById("p100").addEventListener("click", plus100);
 document.getElementById("clear").addEventListener('click', clear);
+document.getElementById("p10").addEventListener("click", plus10);
+document.getElementById("pinp").addEventListener("click", plusPlayer);
 // Event Function
 function simulate() {
     position = Number(document.getElementById("input").value);
@@ -84,7 +86,17 @@ function plus100() {
         simulate();
     }
 }
+function plus10() {
+    for (let n = 0; n < 10; n++) {
+        simulate();
+    }
+}
 
+function plusPlayer(){
+    for (let n = 0; n < Number(document.getElementById('inp').value); n++) {
+        simulate();
+    }
+}
 function clear() {
     numBanana = 0;
     numShell = 0;
