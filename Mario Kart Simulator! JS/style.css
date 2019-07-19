@@ -68,3 +68,8 @@ button:hover {
 .h1{
     width:900px;
 }
+
+input{
+    width: 55px;
+    border-radius: 100px;
+}
